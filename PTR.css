@@ -1,0 +1,154 @@
+body{
+	background-color : #3399CC;
+	color : #666666;
+	font-family : Arial;
+	background-image : linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC);
+	
+}
+header{
+	background-color : #000033;
+	color : #FFFFFF;
+	font-family : Georgia;
+}
+h1{
+	line-height : 200%;
+	background-image : url(Images/sunset.jpg);
+	background-position : right;
+	background-repeat : no-repeat;
+	padding-left : 2em;
+	height : 72px;
+	margin-bottom : 0;
+}
+nav a{
+	text-decoration : none;
+}
+nav{
+	float : left;
+	width : 160px;
+	padding : 0;
+	padding-bottom : .5em;
+	padding-top: .5em;
+	padding-right : .5em;
+	padding-left : 2em;
+	font-weight : bold;
+}
+nav a:link {color : #FFFFFF; }
+nav a:visited { color : #C2E0F0;}
+nav a:hover { color : #CCCCCC; }
+nav ul{
+	list-style : none;
+	padding-left : 1em;
+}
+h2{
+	color : #3399CC;
+	font-family : Georgia;
+}
+dt{
+	color : #000033;
+	font-weight : bold;
+}
+.resort{
+	color : #000033;
+	font-size : 1.2em;
+}
+footer{
+	padding : 1em;
+	font-size : .70em;
+	text-align : center;
+	font-style : italic;
+	background-color : #FFFFFF;
+	margin-left : 170px;
+}
+#wrapper{
+	width : 80%;
+	margin-right : auto;
+	margin-left : auto;
+	background-color : #000033;
+	min-width : 700px;
+	max-width : 1024px;
+	box-shadow : 5px 5px 5px black;
+}
+h3{
+	color : #000033;
+}
+main{
+	background-color : #FFFFFF;
+	margin-left : 170px;
+	padding-top : 1px;
+	padding-bottom : 1px;
+	padding-left : 2em;
+	padding-right : 2em;
+	display : block;
+}
+#homehero{
+	margin-left : 170px;
+	height : 300px;
+	background-image : url(Images/coast.jpg);
+	background-size : 100% 100%;
+	background-repeat : no-repeat;
+}
+#yurthero{
+	margin-left : 170px;
+	height : 300px;
+	background-image : url(Images/yurt.jpg);
+	background-size : 100% 100%;
+	background-repeat : no-repeat;
+}
+#trailhero{
+	margin-left : 170px;
+	height : 300px;
+	background-image : url(Images/trail.jpg);
+	background-size : 100% 100%;
+	background-repeat : no-repeat;
+}
+* {box-sizing : border-box;}
+header, nav, main, footer { display : block;}
+table{
+	align : center;
+	border : 1px solid #3399CC;
+	width : 90%;
+	use-border-collapse : collapse;
+}
+td{
+	padding : 5px;
+	border : 1px solid #3399CC;
+	text-align : center;
+}
+th{
+	padding : 5px;
+	border : 1px solid #3399CC;
+	text-align : center;
+}
+.text{
+	text-align : left;
+}
+tr:nth-of-type(even) {background-color : #F5FAFC;}
+label{
+	float : left;
+	width : 8em;
+	padding-right : 1em;
+}
+input{
+	display : block;
+	padding-right : 1em;
+}
+textarea{
+	display : block;
+	padding-right : 1em;
+}
+#mySubmit{
+	margin-left : 10em;
+}
+video{
+	float: right;
+	margin : 2em;
+}
+.leftfloat{
+	float: left;
+	margin: 1em;
+}
+.clear{
+	clear : left;
+}
+
+

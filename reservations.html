@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<div id="wrapper">
+<header>
+<script>
+function validateForm(){
+	if (document.forms[0].myEmail.value == ""){
+		alert('Please enter a valid e-mail address.');
+		return false;
+	}
+	return true;
+}
+</script>
+<link rel="stylesheet" href="PTR.css">
+<title>Pacific Trails Resort:: Reservations</title>
+<h1>Pacific Trails Resort</h1>
+</header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="yurts.html">Yurts</a></li>
+<li><a href="activities.html">Activities</a></li>
+<li><a href="reservations.html">Reservations</a></li>
+<li><a href="shop.html">Shop</a></li>
+</ul>
+</nav>
+<main>
+<h2>Reservations at Pacific Trails</h2>
+<h3>Contact Us</h3>
+<p>Required information is marked with an astrisk (*)</p>
+<form method="post" onsubmit="return validateForm();"action="http://webdevbasics.net/scripts/pacific.php">
+<label for="myFName">First Name:</label>
+<input type="text" name="myFName" id="myFName">
+<label for="myLName">Last Name:</label>
+<input type="text" name="myLName"id="myLName">
+<label for="myEmail">* E-mail:</label>
+<input type="email" name="myEmail"id="myEmail">
+<label for="myPhone">Phone:</label>
+<input type="tel" name="myPhone" id="myPhone">
+<label for="myDate">Arrival Date:</label>
+<input type="date" name="myDate" id="myDate">
+<label for="myNights">Nights:</label>
+<input type="number" min="1" max="14" id="myDate">
+<label for="myComments">Comments:</label>
+<textarea name="myComments"rows="2" cols="20"></textarea>
+<input type="submit" action="http://webdevbasics.net/scripts/pacific.php">
+<input type="reset">
+</form>
+</main>
+
+<footer>
+<p>Copyright &copy; 2021 Pacific Trails Resort</p>
+<a href="mailto:quadree.randolph97@gmail.com">quadree.randolph97@gmail.com</a>
+</footer>
+</div>
+</html>
